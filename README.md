@@ -3,6 +3,10 @@
 Lunar Lander Unity is designed to be an environment to bridge the gap between reinforcement learning research and the implementation of various reinforcement learning algorithms in practice. Our primary objective is for the game environment to be easily demoed and destributed to a broad audience.
 By developing in Unity, we hope to leverage its flexibility and ubiquity in game development and combine that with state of the art techniques in AI research for human-AI collaboration. The project is currently in development and has no reinforcement learning algorithms implemented yet. It is currently only a reimplementation from the ground-up of the Lunar Lander game, specifically inspired by [Open AI's implementation](https://www.gymlibrary.ml/environments/box2d/lunar_lander/).
 
+<p align="center">
+<a><img src=https://user-images.githubusercontent.com/45405824/178859156-6dacf444-d986-4abc-b54f-772f3b66adc1.gif></img></a>
+</p>
+
 ## Game Installation 
 ### Windows
 Download the release zip from [GitHub Releases](https://github.com/DaveCoDev/LunarLanderUnity/releases). Extract the zip file and run the `LunarLanderUnity.exe` executable.
