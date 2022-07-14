@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Root" style="width: 100%; height: 100%; flex-direction: column; flex-wrap: nowrap; align-items: center; justify-content: center;">
+        <ui:VisualElement name="MenuContainer" style="align-items: center; justify-content: center; width: 100%; height: 100%; display: flex;">
+            <ui:Label text="Lunar Lander Unity" display-tooltip-when-elided="true" name="GameTitle" style="font-size: 64px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 48px;" />
+            <ui:Button text="Start" display-tooltip-when-elided="true" name="startButton" style="font-size: 50%; width: 300px; justify-content: flex-start; align-items: stretch; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-bottom: 16px; margin-right: 0; margin-left: 0; margin-top: 0;" />
+            <ui:Button text="Settings" display-tooltip-when-elided="true" name="settingsButton" style="font-size: 50%; width: 300px; justify-content: flex-start; align-items: stretch; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 16px;" />
+            <ui:Button text="Close" display-tooltip-when-elided="true" name="closeButton" style="font-size: 48px; height: auto; width: 300px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-bottom: 0; margin-top: 0; margin-right: 0; margin-left: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SettingsContainer" style="width: 30%; height: 100%; align-items: flex-start; justify-content: center; flex-direction: column; display: none;">
+            <ui:VisualElement name="thrustUpRow" style="align-items: center; justify-content: space-between; width: 100%; height: 7%; flex-direction: row;">
+                <ui:Label text="Thrust Up" display-tooltip-when-elided="true" name="thrustUpText" style="font-size: 36px; -unity-text-align: upper-left;" />
+                <ui:Button text="W" display-tooltip-when-elided="true" name="thrustUpControl" style="opacity: 1; font-size: 36px; color: rgb(238, 238, 238); width: 300px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="thrustLeftRow" style="width: 100%; height: 7%; align-items: center; justify-content: space-between; flex-direction: row; flex-grow: 0;">
+                <ui:Label text="Thrust Left" display-tooltip-when-elided="true" name="thrustLeftText" style="font-size: 36px;" />
+                <ui:Button text="A" display-tooltip-when-elided="true" name="thrustLeftControl" style="opacity: 1; font-size: 36px; color: rgb(238, 238, 238); width: 300px; justify-content: flex-start; align-items: flex-end;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="thrustRightRow" style="width: 100%; height: 7%; align-items: center; justify-content: space-between; flex-direction: row;">
+                <ui:Label text="Thrust Right" display-tooltip-when-elided="true" name="thrustRightText" style="font-size: 36px;" />
+                <ui:Button text="D" display-tooltip-when-elided="true" name="thrustRightControl" enable-rich-text="true" style="opacity: 1; font-size: 36px; color: rgb(238, 238, 238); width: 300px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="debugToggleRow" style="width: 100%; height: 7%; align-items: center; justify-content: space-between; flex-direction: row;">
+                <ui:Label text="Enable Debug" display-tooltip-when-elided="true" name="debugToggleText" style="font-size: 36px;" />
+                <ui:Toggle name="debugToggle" style="font-size: 36px; align-items: center; justify-content: space-around; flex-direction: row; flex-wrap: nowrap; width: 300px; height: auto; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="backRow" style="width: 100%; height: 6%; align-items: flex-start; justify-content: center; flex-direction: row;">
+                <ui:Button text="Back" display-tooltip-when-elided="true" name="settingsBackButton" style="font-size: 36px; width: 240px; height: 100%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Label text="Developed by DaveCoDev" display-tooltip-when-elided="true" style="font-size: 32px; justify-content: flex-start; align-items: center; -unity-text-align: upper-right; padding-left: 0; padding-right: 24px; padding-bottom: 8px;" />
+    </ui:VisualElement>
+</ui:UXML>

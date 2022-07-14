@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Root" style="width: 100%; height: 100%; align-items: stretch; justify-content: flex-start; flex-direction: row;">
+        <ui:VisualElement name="GameContainer" style="display: flex; width: 100%; height: 100%;">
+            <ui:Label text="200" display-tooltip-when-elided="true" name="scoreLabel" style="justify-content: flex-start; align-items: auto; height: 80px; width: 200px; padding-left: 24px; padding-right: 16px; padding-top: 16px; padding-bottom: 16px; -unity-text-align: middle-left; color: rgb(241, 241, 241); font-size: 32px; -unity-font-style: bold;" />
+            <ui:Label display-tooltip-when-elided="true" name="lastScoreLabel" style="justify-content: flex-start; align-items: auto; height: 30px; width: 200px; padding-left: 24px; padding-right: 16px; padding-top: 0; padding-bottom: 0; -unity-text-align: middle-left; color: rgb(241, 241, 241); font-size: 32px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="DebugContainer" style="width: 100%; height: 100%; justify-content: flex-start; white-space: normal; display: none;">
+            <ui:Label text="Debug Info" display-tooltip-when-elided="true" name="DebugInfoLabel" style="font-size: 36px; -unity-text-align: upper-right; -unity-font-style: bold; color: rgba(255, 255, 255, 255);" />
+            <ui:Label text="X Pos: " display-tooltip-when-elided="true" name="XPosLabel" style="font-size: 36px; -unity-text-align: upper-right; -unity-font-style: normal; color: rgba(255, 255, 255, 255);" />
+            <ui:Label text="Y Pos: " display-tooltip-when-elided="true" name="YPosLabel" style="font-size: 36px; -unity-text-align: upper-right; -unity-font-style: normal; color: rgba(255, 255, 255, 255);" />
+            <ui:Label text="X Velocity: " display-tooltip-when-elided="true" name="XVelLabel" style="font-size: 36px; -unity-text-align: upper-right; -unity-font-style: normal; color: rgba(255, 255, 255, 255);" />
+            <ui:Label text="Y Velocity: " display-tooltip-when-elided="true" name="YVelLabel" style="font-size: 36px; -unity-text-align: upper-right; -unity-font-style: normal; color: rgba(255, 255, 255, 255);" />
+            <ui:Label text="Angle: " display-tooltip-when-elided="true" name="AngleLabel" style="font-size: 36px; -unity-text-align: upper-right; -unity-font-style: normal; color: rgba(255, 255, 255, 255);" />
+            <ui:Label text="Anglular Velocity: " display-tooltip-when-elided="true" name="AngleVelLabel" style="font-size: 36px; -unity-text-align: upper-right; -unity-font-style: normal; color: rgba(255, 255, 255, 255);" />
+            <ui:Label text="Landing Pad Contact?: " display-tooltip-when-elided="true" name="LandingPadContactLabel" style="font-size: 36px; -unity-text-align: upper-right; -unity-font-style: normal; color: rgba(255, 255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

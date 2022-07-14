@@ -1,0 +1,161 @@
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "Lander",
+            "id": "9345adb9-e716-400e-81f8-7d68afcd2587",
+            "actions": [
+                {
+                    "name": "ThrustUp",
+                    "type": "Value",
+                    "id": "82ff6654-7221-4314-b98b-f455ea0ee10c",
+                    "expectedControlType": "Axis",
+                    "processors": "AxisDeadzone(min=0.05,max=0.975)",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ThrustLeft",
+                    "type": "Value",
+                    "id": "10168d13-100d-4e7f-acef-3730445eae71",
+                    "expectedControlType": "Axis",
+                    "processors": "Invert,AxisDeadzone(min=0.075,max=0.95)",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ThrustRight",
+                    "type": "Value",
+                    "id": "d4875293-4c7e-46e0-8f63-ae2bb7cc54d8",
+                    "expectedControlType": "Axis",
+                    "processors": "AxisDeadzone(min=0.075,max=0.95)",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "BackToMenu",
+                    "type": "Value",
+                    "id": "7ffbf613-0a2a-4227-8383-c9a9878d738e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "397159aa-5b71-4da1-b04f-a7d5be56d57f",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "ThrustUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7d936c11-b9b4-4966-ad20-431d7dfbec4f",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "ThrustUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "22f5a545-8d8e-4e4c-898b-7dfd14f7ea5b",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "ThrustLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d210ae08-bc9b-4dd3-9731-04fca36a8894",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "ThrustLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e988911f-286e-43fc-8c6c-1308368c9424",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "ThrustRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8d9a4531-852e-4106-8b62-e7a2d711f3ed",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "ThrustRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "11b98379-18ba-4512-a81a-eec3553b795a",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "BackToMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8ae663da-5fa0-4138-aed6-9f8cbe808c5c",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "BackToMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
