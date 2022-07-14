@@ -5,7 +5,7 @@ By developing in Unity, we hope to leverage its flexibility and ubiquity in game
 
 ## Game Installation 
 ### Windows
-Download the release zip from [GitHub Releases](). Extract the zip file and run the `LunarLanderUnity.exe` executable.
+Download the release zip from [GitHub Releases](https://github.com/DaveCoDev/LunarLanderUnity/releases). Extract the zip file and run the `LunarLanderUnity.exe` executable.
 
 ### Other
 Other official releases may come in the future. Other platforms can have releases created by downloading the project (following the installation instructions) and using Unity's build tools. Note that we have only tested the Windows build.
